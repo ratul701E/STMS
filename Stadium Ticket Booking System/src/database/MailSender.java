@@ -10,8 +10,8 @@ import javax.mail.Transport;
 public abstract class MailSender {
 
 	public static void sendMail(String recEmail, String subject, String body) {
-		String email = "ratul.sunny111@gmail.com";
-		String password = "ratul01825rs";
+		String email = "***********";
+		String password = "********";
 		
 		Properties theProperties = new Properties();
 		
